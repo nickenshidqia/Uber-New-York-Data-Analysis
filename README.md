@@ -15,11 +15,11 @@ Data analyst got a project to analyze Uber pickups on New York to get insight fr
 [<img src="images/python-logo-2.png" alt="python-logo" width="50"/>](https://www.python.org/) &nbsp;
 [<img src="images/jupyter-logo.png" alt="jupyter-logo" width="50"/>](https://jupyter.org/) &nbsp;
 
-[<img src="./picture/pandas-logo.png" alt="pandas-logo" width="70"/>](https://pandas.pydata.org/) &nbsp;
-[<img src="./picture/numpy-logo.png" alt="numpy-logo" width="100"/>](https://numpy.org/) &nbsp;
-[<img src="./picture/seaborn2-logo.png" alt="seaborn-logo"  width="50"/>](https://seaborn.pydata.org/) &nbsp;
-[<img src="./picture/matplotlib-logo2.png" alt="matplotlib-logo"  width="50"/>](https://matplotlib.org/) &nbsp;
-[<img src="./picture/Plotly-logo.png" alt="plotly-logo"  width="100"/>](https://plotly.com/python/heatmaps/) &nbsp;
+[<img src="images/pandas-logo.png" alt="pandas-logo" width="70"/>](https://pandas.pydata.org/) &nbsp;
+[<img src="images/numpy-logo.png" alt="numpy-logo" width="100"/>](https://numpy.org/) &nbsp;
+[<img src="images/seaborn2-logo.png" alt="seaborn-logo"  width="50"/>](https://seaborn.pydata.org/) &nbsp;
+[<img src="images/matplotlib-logo2.png" alt="matplotlib-logo"  width="50"/>](https://matplotlib.org/) &nbsp;
+[<img src="images/Plotly-logo.png" alt="plotly-logo"  width="100"/>](https://plotly.com/python/heatmaps/) &nbsp;
 
 ## Dataset Used
 
@@ -33,20 +33,20 @@ Data analyst got a project to analyze Uber pickups on New York to get insight fr
 ### Analyzing which month have max uber pickup
 
 Create new dataset that includes Month, and Frequency of Uber pickups. Then plot the dataset into the bar chart.  
-<img src="./picture/plot1.png" alt="code" width = "500"/>  
-<img src="./picture/bar.png" alt="table name" width = "400"/>
+<img src="images/plot1.png" alt="code" width = "500"/>  
+<img src="images/bar.png" alt="table name" width = "400"/>
 
 **Insight :**  
 June seems to have max number of pickups on Uber
 
 Extract the dataset to get weekday, day, hour, and minute to create new table :  
- <img src="./picture/table1.png" alt="table name" width = "600"/>
+ <img src="images/table1.png" alt="table name" width = "600"/>
 
 Then create pivot table or cross tabulation :  
- <img src="./picture/pivot.png" alt="table name" width = "600"/>
+ <img src="images/pivot.png" alt="table name" width = "600"/>
 
 Plot the pivot table into bar chart to get insight what is the highest weekdays of uber pickups  
- <img src="./picture/bar2.png" alt="bar chart" width = "600"/>
+ <img src="images/bar2.png" alt="bar chart" width = "600"/>
 
 **Insight :**  
 The highest number of pickups in each month is on Friday and Saturday.  
@@ -55,8 +55,8 @@ It seems people on New York hanging out a lot on these days, like go shopping, s
 ### Analyzing Hourly Rush in New York
 
 Create new dataset that includes Weekday, hour, and frequency. Then plot the dataset into line plot.  
-<img src="./picture/table2.png" alt="table" width = "200"/>  
-<img src="./picture/plot2.png" alt="line plot" width = "500"/>
+<img src="images/table2.png" alt="table" width = "200"/>  
+<img src="images/plot2.png" alt="line plot" width = "500"/>
 
 **Insight :**  
 It seems Saturday and Sunday has similar trend in late night, morning, and afternoon. But in the evening (starts from 17:00) they exhibits opposite trend, where Saturday pickup continue to increasing, but Sunday pickupstakes a downward turn.
@@ -64,10 +64,10 @@ It seems Saturday and Sunday has similar trend in late night, morning, and after
 ### Analyzing Most Active Uber Base Number
 
 Create new dataset that includes base number, date, and active vehicles.  
-<img src="./picture/table3.png" alt="table" width = "400"/>
+<img src="images/table3.png" alt="table" width = "400"/>
 
 Create pivot table to know what is the most active Uber base number :  
- <img src="./picture/boxplot.png" alt="boxplot" width = "600"/>
+ <img src="images/boxplot.png" alt="boxplot" width = "600"/>
 
 **Insight :**  
 The most active Uber base number is B02764 with 5 summary stats of data :
@@ -79,15 +79,15 @@ The most active Uber base number is B02764 with 5 summary stats of data :
 - max = 4,396 active vehicles
 
 Create violin plot to see distribution and 5 summary stats of data :  
- <img src="./picture/violin.png" alt="violin plot" width = "600"/>
+ <img src="images/violin.png" alt="violin plot" width = "600"/>
 
 ### Perform Spatial Analysis to find what locations of New York City are getting Rush
 
 Create new dataset that includes latitude, longitude, and frequency.  
-<img src="./picture/table4.png" alt="table" width = "200"/>
+<img src="images/table4.png" alt="table" width = "200"/>
 
 Create heatmap to find what locations of New York City are getting Rush :  
-<img src="./picture/heatmap.png" alt="heatmap" width = "500"/>
+<img src="images/heatmap.png" alt="heatmap" width = "500"/>
 
 **Insight :**  
 Midtown Manhattan is the locations of New York City that are getting Rush, because from this heatmap, it is clearly huge bright spot.  
@@ -97,7 +97,7 @@ The reason maybe because Manhattan is the most densely populated of New York Cit
 
 Create pivot table that includes day, hour, and frequency.  
 Then styling pivot table into gradient color.
-<img src="./picture/pivot2.png" alt="table" width = "600"/>
+<img src="images/pivot2.png" alt="table" width = "600"/>
 
 **Insight :**  
 The darker the color, the more getting rush.  
