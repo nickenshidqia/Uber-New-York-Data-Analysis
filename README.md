@@ -95,8 +95,8 @@ The reason maybe because Manhattan is the most densely populated of New York Cit
 
 ### Perform Pair Wise Analysis to Examine Rush Hour
 
-Create pivot table that includes day, hour, and frequency.  
-Then styling pivot table into gradient color.
+Create pivot table that includes day, hour, and frequency.    
+Then styling pivot table into gradient color.  
 <img src="images/pivot2.png" alt="table" width = "600"/>
 
 **Insight :**  
