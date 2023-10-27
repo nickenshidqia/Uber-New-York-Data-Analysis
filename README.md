@@ -12,8 +12,8 @@ Data analyst got a project to analyze Uber pickups on New York to get insight fr
 
 ## Tools & Library Used
 
-[<img src="./picture/python-logo-2.png" alt="python-logo" width="50"/>](https://www.python.org/) &nbsp;
-[<img src="./picture/jupyter-logo.png" alt="jupyter-logo" width="50"/>](https://jupyter.org/) &nbsp;
+[<img src="images/python-logo-2.png" alt="python-logo" width="50"/>](https://www.python.org/) &nbsp;
+[<img src="images/jupyter-logo.png" alt="jupyter-logo" width="50"/>](https://jupyter.org/) &nbsp;
 
 [<img src="./picture/pandas-logo.png" alt="pandas-logo" width="70"/>](https://pandas.pydata.org/) &nbsp;
 [<img src="./picture/numpy-logo.png" alt="numpy-logo" width="100"/>](https://numpy.org/) &nbsp;
